@@ -1493,6 +1493,13 @@ function resetQuiz() {
   updateCounter();
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+<style>
+  .section-divider ~ .q-card {
+    background-color: #f5f0e6 !important; /* Tono crema arena cálido */
+    border-left: 4px solid #d4c5b3; /* Línea lateral en un tono tierra suave */
+    border-radius: 8px; /* Bordes suavemente redondeados */
+  }
+</style>
 
 updateCounter();
 </script>
